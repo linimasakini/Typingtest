@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+
+body{
+    display: flex;
+    padding: 0 10px;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #17A2B8;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 770px;
+}
+
+.heading {
+    font-size: 3rem;
+    margin-bottom: 5px;
+    color: black;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.timer, .errors, .accurate, .cpm, .wpm {
+    background-color: rgb(255, 196, 0);
+    height: 90px;
+    width: 100px;
+    margin: 5px 15px 5px 15px;
+    box-sizing: border-box  ;
+    padding: 12px;
+    border-radius: 25%;
+    text-align: center;;
+    box-shadow: black 2px 2px 2px;
+    align-items: center;
+}
+
+.cpm, .wpm{
+    displaynone;
+}
+
+.text-header {
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.wpm-number, .cpm-number, .error-number, .accurate-number, .timer-number {
+    font-size: 3rem;
+}
+
+.container, .content{
+    padding: 13px 20px 10px;
+    border-radius: 20px;
+    border: 1px solid #bfbfbf;
+    background-color: #fff;
+}
+
+
+
+.content-box, .typing-text {
+    overflow: hidden;
+    margin: 10px 5px 10px 5px;
+    text-align: justify;
+}
+
+.typing-text::-webkit-scrollbar{
+    width: 0;
+}
+
+.content {
+    display: flex;
+     margin-bottom: 20px;
+     width: 700px;    
+}
+
+.typing-text, p{
+    font-size: 21px;
+}
+
+.input_area {
+    background-color: #17A2B8;
+    height: 98px;
+    width: 95%;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 15px;
+    padding: 20px;
+    border: 0px;
+    border-radius: 20px;
+    color: #fff;
+}
+
+.input_area::-webkit-input-placeholder{
+    color: #fff;
+}
