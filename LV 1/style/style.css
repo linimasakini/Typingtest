@@ -47,7 +47,7 @@ body{
 }
 
 .cpm, .wpm{
-    displaynone;
+    display: none;
 }
 
 .text-header {
@@ -56,7 +56,7 @@ body{
     font-weight: 600;
 }
 
-.wpm-number, .cpm-number, .error-number, .accurate-number, .timer-number {
+.curr_wpm, .curr_cpm, .curr_errors, .curr_accuracy, .curr_time {
     font-size: 3rem;
 }
 
@@ -105,3 +105,21 @@ body{
 .input_area::-webkit-input-placeholder{
     color: #fff;
 }
+
+.incorrect_char {
+    color: red;
+    text-decoration: underline;
+  }
+  
+  .correct_char {
+    color: darkgreen;
+  }
+  
+  .restart_btn {
+    display: none;
+    background-color: #326765;
+    font-size: 1.5rem;
+    padding: 10px;
+    border: 0px;
+    box-shadow: black 5px 8px 5px;
+  }

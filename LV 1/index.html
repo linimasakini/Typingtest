@@ -8,36 +8,39 @@
 </head>
 <body>
     <div class="container">
-
         <div class="header">
             <div class="wpm">
                 <div class="text-header">wpm</div>
-                <div class="wpm-number">1</div>
+                <div class="curr_wpm">1</div>
             </div>
             <div class="cpm">
                 <div class="text-header">CPM</div>
-                <div class="cpm-number">1</div>
+                <div class="curr_cpm">1</div>
             </div>
             <div class="errors">
                 <div class="text-header">Salah</div>
-                <div class="error-number">1</div>
+                <div class="curr_errors">0</div>
             </div>
             <div class="accurate">
                 <div class="text-header">Akurasi</div>
-                <div class="accurate-number">1</div>
+                <div class="curr_accuracy">10</div>
             </div>
             <div class="timer">
                 <div class="text-header">Waktu</div>
-                <div class="timer-number">60</div>
+                <div class="curr_time">60s</div>
             </div>
         </div>
-        <div class="content">
+        
+
             <div class="typing-text">
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt inventore unde, fugit consequatur eligendi quo officiis vero expedita necessitatibus dolores doloribus earum alias, numquam doloremque facere quisquam recusandae dolor voluptate quas dolorum eveniet eos! Alias dolorem pariatur quas aliquid harum saepe. Quia tempora reprehenderit ut perspiciatis illum quas molestiae reiciendis odit pariatur qui labore temporibus fuga ipsum natus inventore, dicta deserunt voluptas error, ad incidunt sint? Perferendis sapiente nam quas, quam ullam commodi deserunt laboriosam dolore et saepe eveniet fugiat dolorum dicta doloremque tempore quasi culpa, delectus totam alias qui. Expedita molestiae qui similique nobis libero laudantium nulla, nemo vitae.</p>
+                <p>Klik pada area ditentukan untuk memulai...</p>
             </div>
-        </div>
+
         <textarea class="input_area" placeholder="mulai mengetik disini....." oninput="processCurrentText()"
         onfocus="startGame()"></textarea>
+        <button class="reset_button" onclick="resetValues()">Restart</button>
     </div>
+    <script src="script/script.js"></script>
+    <script src="script/paragraph.js"></script>
 </body>
 </html>
