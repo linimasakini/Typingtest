@@ -1,46 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Typing Test Game</title>
-    <link rel="stylesheet" href="style/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+  <body>
     <div class="container">
-        <div class="header">
-            <div class="wpm">
-                <div class="text-header">wpm</div>
-                <div class="curr_wpm">1</div>
-            </div>
-            <div class="cpm">
-                <div class="text-header">CPM</div>
-                <div class="curr_cpm">1</div>
-            </div>
-            <div class="errors">
-                <div class="text-header">Salah</div>
-                <div class="curr_errors">0</div>
-            </div>
-            <div class="accurate">
-                <div class="text-header">Akurasi</div>
-                <div class="curr_accuracy">10</div>
-            </div>
-            <div class="timer">
-                <div class="text-header">Waktu</div>
-                <div class="curr_time">60s</div>
-            </div>
+      <div class="header">
+        <div class="wpm">
+          <div class="text-header">wpm</div>
+          <div class="curr_wpm">1</div>
         </div>
-        
+        <div class="cpm">
+          <div class="text-header">CPM</div>
+          <div class="curr_cpm">1</div>
+        </div>
+        <div class="errors">
+          <div class="text-header">Salah</div>
+          <div class="curr_errors">0</div>
+        </div>
+        <div class="accurate">
+          <div class="text-header">Akurasi</div>
+          <div class="curr_accuracy">10</div>
+        </div>
+        <div class="timer">
+          <div class="text-header">Waktu</div>
+          <div class="curr_time">60s</div>
+        </div>
+      </div>
 
-            <div class="typing-text">
-                <p>Klik pada area ditentukan untuk memulai...</p>
-            </div>
+      <div class="quote">
+        <p>Klik pada area ditentukan untuk memulai...</p>
+      </div>
 
-        <textarea class="input_area" placeholder="mulai mengetik disini....." oninput="processCurrentText()"
-        onfocus="startGame()"></textarea>
-        <button class="reset_button" onclick="resetValues()">Restart</button>
+      <textarea class="input_area" placeholder="mulai mengetik disini....." oninput="processCurrentText()" onfocus="startGame()"></textarea>
+      <button class="restart_button" onclick="resetValues()">Restart</button>
     </div>
     <script src="script/script.js"></script>
     <script src="script/paragraph.js"></script>
-</body>
+  </body>
 </html>
