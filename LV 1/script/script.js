@@ -1,5 +1,5 @@
 // Limit Waktu
-let TIME_LIMIT = 10;
+let TIME_LIMIT = 60;
 
 // element yang dibutuhkan
 let timer_text = document.querySelector(".curr_time");
