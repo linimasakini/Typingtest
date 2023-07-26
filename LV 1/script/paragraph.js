@@ -1,3 +1,14 @@
 const paragraphs = ["aku adalah anak sehat",
                    "Asep kependekan dari kasep yang berarti cakep",
-                   "Baby shark dudududududu baby shark dudududududu"];
+                   "Baby shark dudududududu baby shark dudududududu",
+                   "Cinta burung kehilangan sayap yang tak bisa terbang",
+                   "Diriku burung menyedihkan yang lupa caranya terbang",
+                   "Sebenarnya tak ada yang ingin kulakukan",
+                   "Bahkan hanya dengan menghirup nafas s'kalipun",
+                   "Meskipun sudah coba pakai super computer",
+                   "Ya, s'karanglah life yang kedua (life!)",
+                   "Ya, s'karanglah birth yang kedua (birth!)",
+                   "Ku punya firasat 'tuk bisa saling mencinta denganmu",
+                   "Yeah, yeah, yeah!",
+                   "Kamu berharga lebih dari siapa pun",
+                   "Tadinya ku ingin ungkapkan rasa ini"];
