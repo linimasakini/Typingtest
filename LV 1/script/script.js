@@ -1,5 +1,5 @@
 // Limit Waktu
-let TIME_LIMIT = 60;
+let TIME_LIMIT = 600;
 
 // element yang dibutuhkan
 let timer_text = document.querySelector(".curr_time");
@@ -27,6 +27,7 @@ let timer = null;
 
 function updateQuote() {
   quote_text.textContent = null;
+  quoteNo = Math.floor(Math.random() * paragraphs.length);
   current_quote = paragraphs[quoteNo];
 
   //   separate karakter dan buat element
